@@ -1,0 +1,24 @@
+.box{
+  width: 50%;
+  margin-left: 2%;
+  margin-top: 1%;
+  padding: 1%;
+  background-color: rgb(255, 226, 153);
+  float:left;
+  box-shadow: 10px 10px 10px #1C1C1C;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+
+
+.image{
+  float: left;
+  margin-top: 1%;
+  margin-left: 1%;
+  box-shadow: 10px 10px 10px #1C1C1C;
+}
+
+.text{
+  padding-top: 1%;
+}
