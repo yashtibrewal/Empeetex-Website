@@ -1,102 +1,165 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=1080w, height=1920h, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" href="resources/css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Bootstrap3/bootstrap.min.css">
     <link rel="stylesheet" href="resources/css/about_us.css">
+    <link rel="stylesheet" href="resources/css/main.css">
 </head>
+
 <body>
-<div class="container">
-    <header class='header'>
-        <a href="index.html"><img src="resources/images/logo.png" id="logo" alt="Logo Image not found"></a>
-        <div class="navigation-bar">
-            <ul>
-                <li class="link"><a href="contact_us.html"><h2>Contact Us</h2></a></li>
-                <li class="link"><a href="about_us_page.html"><h2>About Us</h2></a></li>
-                <li class="link"><a href="awards.html"><h2>Achievements</h2></a></li>
-                <li class="link"><a href="exim_page.html"><h2>Market Presence</h2></a></li>
-                <li class="link"><a href="products_page.html"><h2>Products</h2></a></li>
-                <li class="link"><a href="index.html"><h2>Home</h2></a></li>
-            </ul>
-        </div>
-        <div class="line"></div>
-    </header>
-    <div class="mission_bg">
-        <div style="text-align: center;">
-            <h2>OBJECTIVE</h2>
-            <p>
-                To grow the business by our experience & techno-commercial knowledge and achieve mutual growth of our
-                Associates/Collaborates by fulfilling the commitments.
-            </p>
-        </div>
-    </div>
-    <div class='background_bg'>
-        <div style="text-align: center;">
-            <h2>MANAGEMENT</h2>
-        </div>
-        <div class="left_text">
-            <div class="left">
-                <p>
-                    A company, where entire family is having a textile background right from fibre to yarn, fabrics &
-                    garments, presently being managed by Mr. Pankaj Tibrewal in guidance and directions of his family
-                    members, all of them being professionals and are holding top positions in textile field. Graduated
-                    in B.TECH (Textile Technology) from one of the Asia's premier institute - T.I.T & S Bhiwani, also
-                    achieved managerial qualities by completing M.M.S.(Marketing), at the same time got the blessings
-                    and basic textile input from his father Sh. R.A. Tibrewal who had been managing the basic raw material
-                    (fibres) in one of the spinning unit of K.K Birla group of companies.
-                    <br><br>
-                    Being Techno-Commercial, spent about 25 years with renowned textile giants like – BIRLA's- Bhiwani
-                    Textile Mills (Unit of Grasim Industries Limited- <b>Aditya Birla Group of Companies</b>), Rajasthan
-                    Textile Mills (Unit of Sutlej Industries Limited- <b>K. K. Birla Group of companies</b>), RSR Mohota
-                    Spg & Wvg Mills( <b>Mohota Industries Ltd.</b>)having senior position and handling textile exports.
-                    <br><br>
-                    During these 25 years of exposure to overseas market, achieved growth and profitability in business,
-                    got awards and make many contacts in various countries with good credits. With these credentials and
-                    enriched experience started own business of Exports which is Agency/Indenting basis from fibre to
-                    yarn, fabrics & garments as well as Imports and Distribution of synthetic yarns in collaboration
-                    with associates.
-                </p> 
+    <nav id="navigation-bar" class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse"
+                    data-target="#navigation-links" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="pull-left">
+                    <div class="pull-left"><img id="logo-img" class="img-responsive" src="resources/images/logo.png" alt=""></div>
+                </a>
             </div>
-            <div class="right">
-                <div style="text-align: center;">
-                    <img class="image" src="resources/images/Director.jpg" alt="Image not found">
-                    <p>Mr.&nbspPankaj&nbspTibrewal Director</p>
+            <div class="collapse navbar-collapse" id="navigation-links">
+                <ul id="nav-list" class="nav navbar-nav text-center">
+                    <li><a href="">
+                            <h2>Home</h2>
+                        </a> </li>
+                    <hr class="visible-xs">
+                    <li><a href="">
+                            <h2>Market Presence</h2>
+                        </a> </li>
+                    <hr class="visible-xs">
+                    <li><a href="">
+                            <h2>Products</h2>
+                        </a></li>
+                    <hr class="visible-xs">
+                    <li><a href="">
+                            <h2>Achievements</h2>
+                        </a></li>
+                    <hr class="visible-xs">
+                    <li><a href="">
+                            <h2>About Us</h2>
+                        </a></li>
+                    <hr class="visible-xs">
+                    <li><a href="">
+                            <h2>Contact Us</h2>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <hr id="black" class="hidden-xs">
+    <div class="container">
+        <div class="row">
+            <div id="block1" class="block text-center col-lg-12">
+                <h3>
+                    objective
+                </h3>
+                <p>
+                    To grow the business by our experience & techno-commercial knowledge and achieve mutual growth of
+                    our Associates/Collaborates by fulfilling the commitments.
+                </p>
+            </div>
+            <div id="block2" class="block text-left col-lg-12">
+                <div class="row">
+                    <div id="block2_p" class="col-lg-9 col-md-9 col-sm-12">
+                        <h3 class="text-center">
+                            management
+                        </h3>
+                        <div class="col-sm-12 col-xs-12 visible-sm visible-xs text-center">
+                            <img id="director_img1" src="resources/images/Director.jpg" alt="Image not found">
+                            <p>Mr.&nbsp;Pankaj&nbsp;Tibrewal Director</p>
+                        </div>
+                        <p>
+                            A company, where entire family is having a textile background right from fibre to yarn,
+                            fabrics
+                            &amp;
+                            garments, presently being managed by Mr. Pankaj Tibrewal in guidance and directions of his
+                            family
+                            members, all of them being professionals and are holding top positions in textile field.
+                            Graduated
+                            in B.TECH (Textile Technology) from one of the Asia's premier institute - T.I.T &amp; S
+                            Bhiwani,
+                            also
+                            achieved managerial qualities by completing M.M.S.(Marketing), at the same time got the
+                            blessings
+                            and basic textile input from his father Sh. R.A. Tibrewal who had been managing the basic
+                            raw
+                            material
+                            (fibres) in one of the spinning unit of K.K Birla group of companies.
+                            <br><br>
+                            Being Techno-Commercial, spent about 25 years with renowned textile giants like – BIRLA's-
+                            Bhiwani
+                            Textile Mills (Unit of Grasim Industries Limited- <b>Aditya Birla Group of Companies</b>),
+                            Rajasthan
+                            Textile Mills (Unit of Sutlej Industries Limited- <b>K. K. Birla Group of companies</b>),
+                            RSR
+                            Mohota
+                            Spg &amp; Wvg Mills( <b>Mohota Industries Ltd.</b>)having senior position and handling
+                            textile
+                            exports.
+                            <br><br>
+                            During these 25 years of exposure to overseas market, achieved growth and profitability in
+                            business,
+                            got awards and make many contacts in various countries with good credits. With these
+                            credentials
+                            and
+                            enriched experience started own business of Exports which is Agency/Indenting basis from
+                            fibre
+                            to
+                            yarn, fabrics &amp; garments as well as Imports and Distribution of synthetic yarns in
+                            collaboration
+                            with associates.
+                        </p>
+                    </div>
+                    <div id="block2_i" class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+                        <img id="director_img2" src="resources/images/Director.jpg" alt="Image not found">
+                        <p id="director_name">Mr.&nbsp;Pankaj&nbsp;Tibrewal Director</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="advisors_bg">
-        <div style="text-align: center;">
-            <h2>ADVISORS</h2>
-        </div>
-        <div>
-            <p style="float: left; width: 40%;">
-                Mr.&nbsp;S.P.&nbsp;Tibrewal,&nbsp;Charted&nbsp;Accountant,&nbsp;Company&nbsp;Secretary&nbsp;Finance&nbsp;Specialisation.<br>
-                Mr.&nbsp;Sunil&nbsp;Tibrewal,&nbsp;B.Tech&nbsp;(Textile
-                Technology),&nbsp;Fabrics&nbsp;Specialisation<br>
+            <div id="block3" class="block col-lg-12">
+                <div class="row">
+                    <h3 class="text-center">
+                        advisors
+                    </h3>
+                    <p id="advisor1" class="col-md-6 col-sm-12">
+                        Mr.&nbsp;S.P.&nbsp;Tibrewal,&nbsp;Charted&nbsp;Accountant,<br
+                            class="hidden-md hidden-lg">Company&nbsp;Secretary&nbsp;Finance&nbsp;Specialisation.<br>
+                        Mr.&nbsp;Sunil&nbsp;Tibrewal,&nbsp;B.Tech&nbsp;(Textile
+                        Technology),&nbsp;Fabrics&nbsp;Specialisation<br>
+                    </p>
+                    <p id="advisor2" class="col-md-6 col-sm-12">
+                        Mr.&nbsp;K.K.&nbsp;Khaitan,&nbsp;Advocate<br>
+                        Mr.&nbsp;Anil&nbsp;Tibrewal,&nbsp;B.Tech&nbsp;(Textile Technology),&nbsp;Yarn Specialisation<br>
+                    </p>
+                    <p class="text-center col-lg-12 col-md-12 col-sm-12 visible-lg visible-md">
+                        Mr.&nbsp;Yash&nbsp;Tibrewal,&nbsp;B.Tech&nbsp;(Information Technology),&nbsp;Web Developer<br>
+                    </p>
+                    <p class="text-left col-lg-12 col-md-12 col-sm-12 visible-sm visible-xs">
+                        Mr.&nbsp;Yash&nbsp;Tibrewal,&nbsp;B.Tech&nbsp;(Information Technology),&nbsp;Web Developer<br>
+                    </p>
+                </div>
+            </div>
+        </div> <!-- End Of Row Div-->
+    </div><!-- End Of Container Div-->
+    <footer>
+        <div class="text-center">
+            <p>
+                Contact Us at <span id="email"> pankaj@empeetex.com</span>
+              <span class="hidden-xs">|</span> &nbsp;Phone:&nbsp;+91&nbsp;9820618154  
             </p>
-            <p style="float: left; width: 40%;">
-                Mr.&nbsp;K.K.&nbsp;Khaitan,&nbsp;Advocate<br>
-                Mr.&nbsp;Anil&nbsp;Tibrewal,&nbsp;B.Tech&nbsp;(Textile Technology),&nbsp;Yarn Specialisation<br>
-            </p>
-
-            <p style="text-align: center;">
-                Mr.&nbsp;Yash&nbsp;Tibrewal,&nbsp;B.Tech&nbsp;(Information Technology),&nbsp;Web Developer<br></p>
-            </p>
         </div>
-    </div>
-
-</div>
-
-<footer style="text-align: center;margin-top: 5%; ">
-    <p class="footer">Contact us at <span style="color:rgb(166, 176, 255);">pankaj@empeetex.com</span> | Phone:+91
-        9820618154</p>
-</footer>
-
+    </footer>
+    <script src="Bootstrap3/jquery-2.1.4.min.js"></script>
+    <script src="Bootstrap3/bootstrap.min.js"></script>
+    <script src="Bootstrap3/bootstrap.js"></script>
 </body>
+
 </html>

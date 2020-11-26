@@ -1,62 +1,145 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=1080, height=1920, initial-scale=1.0">
-    <title>Achievements</title>
-    <link rel="stylesheet" href="resources/css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400i&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="resources/css/awards.css">
-</head>
-<body>
-<div class="container">
-    <header class='header'>
-        <a href="index.html"><img src="resources/images/logo.png" id="logo" alt="Logo Image not found"></a>
-        <div class="navigation-bar">
-            <ul>
-                <li class="link"><a href="contact_us.html"><h2>Contact Us</h2></a></li>
-                <li class="link"><a href="about_us_page.html"><h2>About Us</h2></a></li>
-                <li class="link"><a href="awards.html"><h2>Achievements</h2></a></li>
-                <li class="link"><a href="exim_page.html"><h2>Market Presence</h2></a></li>
-                <li class="link"><a href="products_page.html"><h2>Products</h2></a></li>
-                <li class="link"><a href="index.html"><h2>Home</h2></a></li>
-            </ul>
-        </div>
-        <div class="line"></div>
-    </header>
-    <div class="awards" style="text-align: center;">
-        <h1>Awards</h1>
-        <div class="award">
-            <h3>Certificate of Merit, by SRTEPC</h3>
-            <img src="resources/images/awards/Photo 1.webp" alt="Image not loaded">
-            <p>Presented by Honourable Misnister of Textiles, Govt. of India<br></p>
-        </div>
-        <div class="award middle">
-            <h3>Certificate of Merit, by SRTEPC</h3>
-            <img src="resources/images/awards/Photo 2.webp" alt="Image not loaded">
-            <p>Presented by Secretary Textiles, Govt. of India<br></p>
-        </div>
+<html lang="en">
 
-        <div class="award">
-            <h3>Trophy of Appreciation</h3>
-            <img src="resources/images/awards/Photo 3.webp" alt="Image not loaded">
-            <p>Presented by Honourable Minister of Textiles: Mr.&nbsp;Santosh&nbsp;Gangwar, Govt. of India</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements</title>
+    <link rel="stylesheet" href="Bootstrap3/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/awards.css">
+    <link rel="stylesheet" href="resources/css/main.css">
+</head>
+
+<body>
+    <nav id="navigation-bar" class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse"
+                    data-target="#navigation-links" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+               </button>
+                <a href="index.html" class="pull-left">
+                    <div class="pull-left"><img id="logo-img" class="img-responsive" src="resources/images/logo.png" alt=""></div>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse " id="navigation-links">
+                <ul id="nav-list" class="nav navbar-nav text-center">
+                    <li><a href="">
+                            <h2>Home</h2>
+                        </a> </li>
+                    <hr class="visible-xs">
+                    <li><a href="">
+                            <h2>Market Presence</h2>
+                        </a> </li>
+                    <hr class="visible-xs">
+                    <li><a href="">
+                            <h2>Products</h2>
+                        </a></li>
+                    <hr class="visible-xs">
+                    <li><a href="">
+                            <h2>Achievements</h2>
+                        </a></li>
+                    <hr class="visible-xs">
+                    <li><a href="">
+                            <h2>About Us</h2>
+                        </a></li>
+                    <hr class="visible-xs">
+                    <li><a href="">
+                            <h2>Contact Us</h2>
+                        </a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div class="certificates" style="text-align: center;">
-        <div class="certificate">
-            <img src="resources/images/awards/cert 2 nh.webp" alt="Image not loaded">
+    </nav>
+    <hr id="black" class="hidden-xs">
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center"id="certificate1">Awards</h2>
+
+            <div id="block_padding" class="col-lg-4 col-md-4 col-sm-6">
+                <div class="row">
+                    <div id="block1" class="text-center col-xs-10 col-xs-offset-1  block">
+                        <h3>Certificate of Merit, by SRTEPC</h3>
+                        <img src="resources/images/awards/Photo 1.webp" alt="">
+                        <p>Presented by Honourable Misnister of Textiles, Govt. of India
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="block_padding" class="col-lg-4 col-md-4 col-sm-6">
+                <div class="row">
+                    <div id="block2" class="text-center col-xs-10 col-xs-offset-1 block">
+                        <h3>Trophy of Appreciation</h3>
+                        <img src="resources/images/awards/Photo 3.webp" alt="">
+                        <p>Presented by Honourable Minister of Textiles: Mr. Santosh Gangwar, Govt. of India</p>
+                    </div>
+                </div>
+            </div>
+            <div id="block_padding" class="col-lg-4 col-md-4 col-sm-12">
+                <div class="row">
+                    <div id="block3" class="text-center col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 block">
+                        <h3>Certificate of Merit, by SRTEPC</h3>
+                        <img src="resources/images/awards/Photo 2.webp" alt="">
+                        <p>Presented by Secretary Textiles, Govt. of India</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix visible-lg visible-md visible-sm"></div>
+
+
+            <div class="certificate_block col-md-12 visible-xs visible-sm visible-md">
+                <div class="row">
+                    <div class="text-center col-xs-10 col-xs-offset-1 col-md-offset-0 col-md-12">
+                        <h3 id="certificate1"> Certificates </h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Certificate 1 Block -->
+            <div class="certificate1 col-lg-4 col-md-6 col-sm-6">
+                <div class="row">
+                    <div id="block4" class="text-center block  col-xs-10 col-xs-offset-1">
+                        <img src="resources/images/awards/cert 1 nh.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="certificate_heading col-lg-4 col-md-12 visible-lg">
+                <div class="row">
+                    <div id="block5" class="text-center col-md-12">
+                        <h3 id="certificate"> Certificates </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="certificate1 col-lg-4 col-md-6 col-sm-6">
+                <div class="row">
+                    <div id="block6" class="text-center  block  col-xs-10 col-xs-offset-1">
+                        <img src="resources/images/awards/cert 2 nh.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+           
+        </div> <!-- End Of Row Div-->
+    </div><!-- End Of Container Div-->
+    <footer>
+        <div class="text-center">
+            <p>
+                Contact Us at <span id="email"> pankaj@empeetex.com</span>
+                <span class="hidden-xs">|</span> &nbsp;Phone:&nbsp;+91&nbsp;9820618154
+            </p>
         </div>
-        <h1 class="certificate_text"> Certificates</h1>
-        <div class="certificate">
-            <img src="resources/images/awards/cert 1 nh.webp" alt="Image not loaded">
-        </div>
-    </div>
-</div>
-<footer style="text-align: center;margin-top: 2.5%; ">
-    <p class="footer">Contact us at <span style="color:rgb(166, 176, 255);">pankaj@empeetex.com</span> | Phone:+91
-        9820618154</p>
-</footer>
+    </footer>
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../Boostrap4/js/bootstrap.min.js"></script>
+    <script src="../Boostrap4/js/bootstrap.js"></script>
 </body>
+
 </html>
