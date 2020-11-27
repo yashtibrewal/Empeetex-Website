@@ -1,56 +1,144 @@
-.card{
-  float: left;
-  margin: 2.5%;
-  margin-bottom: 1.5%;
-  padding: 1%;
-  border: solid black 2px;
-  width: 26%;
-  height: 60%;
-  background-color: #f18805;
-  color: white;
-  box-shadow: 10px 10px 10px #1c1c1c;
-  font-style: italic;
+ 
+*{
+  box-sizing: border-box;
 }
 
-.card-image{
-  width: 100%;
-  padding-top: 5%;
+
+/* Main Content Styles */
+
+/* Styles of card */
+.card{
+  background-color: #f18805;
+  padding: 10px;
+  font-style: italic;
+  font-size: 0.7em;
+  box-shadow: 5px 5px 15px;
+  /* margin: 10px; */
+}
+.card h3{
+  font-size: 1em;
+  margin-top: 10px;
+  font-weight: 600;
 }
 
 .card h2{
-  color: black;
+  font-size: 1.5em;
+  font-weight: 550;
 }
 
+.card img{
+  width: 100%;
+  height: auto;
+}
+
+
+/* Individaul Cards */
+
+#card1{
+  height: 590px;
+}
+#card3{
+  height: 490px;
+}
+
+#card4{
+  font-size: 1.4em;
+  font-style: italic;
+  font-weight: 700;
+  height: 100px;
+}
+#card4 h3{
+  margin-top: 9%;
+}
+#card6{
+  font-size: 1.4em;
+  font-style: italic;
+  font-weight: 700;
+  height: 100px;
+}
+#card6 h3{
+  margin-top: 9%;
+}
+
+
+
+/* Table Inside Card */
 table{
   background-color: white;
   color: black;
   width: 100%;
+  border-collapse: separate;
 }
-
-
 th{
   border: 2px solid orange;
   padding: 3px;
+} 
+
+/* Footer For Products Page */
+footer{
+  margin-top: 3%;
 }
 
-
-/* TODO: make it relative */
-.box{
-  float: left;
-  width: 27%;
-  left: 5%;
-  color: white;
-  border: 1px solid #1c1c1c;
-  background-color: #f18805;
-  opacity: 90%;
-  box-shadow: 10px 10px 10px #1c1c1c;
+@media (min-width:992px) and (max-width:1199px){
+  #card1{
+    height: 610px;
+  }
+  #card4{
+    margin-top: -25%;
+  }
+  #card6{
+    margin-top: -25%;
+  }
+  footer{
+    margin-top: 3%;
+  }
 }
 
-.box p{
-  font-size: 2.5rem;
+@media (min-width:768px) and (max-width:991px){
+  #card1,#card2{
+    margin-top: 5%;
+  }
+  button.navbar-toggler{
+    top:25px;
+  }  
+  .card4-md{
+    margin-top: 10%;
+  }
+  .inner_card-md div{
+    margin-top: 23%;
+    height: 120px;
+  }
+  .inner_card-md div h3{
+    margin-top: 10%;
+    font-size: 2.1em;
+  }
 }
+@media (min-width:576px) and (max-width:767px){
 
-.left_margin{
-  margin-top: 7%;
-  margin-left: -97%;
+  .card{
+    margin-top: 11%;
+  }
+  #card1{
+    height:650px ;
+  }
+  #card3{
+    height: 580px;
+  }
+  #card4 h3{
+    margin-top: 5%;
+  }
+  #card6 h3{
+    margin-top: 5%;
+  }
+}
+@media (max-width:575px){
+  .card{
+    margin-top: 10%;
+  }
+  #card1{
+    height:615px ;
+  }
+  #card3{
+    height: 520px;
+  }
 }
