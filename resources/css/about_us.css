@@ -1,5 +1,4 @@
 
-
 /* Main Content Styles */
 h3{
     text-transform: uppercase;
@@ -36,4 +35,8 @@ h3{
 }
 #director_name{
     margin-left: 10%;
+}
+
+#block2 #block2_p{
+    padding-left: 30px;
 }
