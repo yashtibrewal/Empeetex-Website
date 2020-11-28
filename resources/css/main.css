@@ -117,6 +117,9 @@ footer p{
         background-color: rgb(255, 219, 181);
         margin:0;
     }
+    button.navbar-toggler{
+      top:25px;
+    }  
     #nav-list li a{
         width: 100%;
     }
