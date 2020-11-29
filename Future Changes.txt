@@ -1,6 +1,4 @@
 Color:
 1. Navbar Button
 2. Navbar List
-3. Footer of Contact Us Page
-4. Background Color Of All pages
-5. href Links for all Pages
+3. Background Color Of All pages
