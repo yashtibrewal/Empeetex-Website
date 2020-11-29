@@ -3,43 +3,51 @@ body{
     color: black;
 }
 /* Navbar Header */
-.navbar-default{
-    border-bottom: 0;
-}
-
 #navigation-bar{
-    background-color: rgb(255, 226, 207);
-}
-#nav-list{
-    margin-left: 20px;
-    margin-top: 50px;
-    float: right;
-    
+    /* background-color: rgb(255, 226, 207); */
+    background-color: rgb(45, 42, 42);
 }
 #logo-img{
-    width: 290px;
+    width: 200px;
     height: auto;
 }
 #nav-list li{
-    font-size: 1em;
-}
-#nav-list h2{
-    font-size: 2rem;
-    color: black;
-    font-weight: bold;
-    font-style: italic;
+    padding: 8px;
 }
 #nav-list li a{
-    padding-top: 0;
-    padding-bottom: 5px;
+    color: white;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.6em;
+}
+#nav-list li a:hover{
+    text-decoration: none;
 }
 
-/* Horizontal Bar After Navbar */
-#black{
-    width: 90%;
-    border:0.5px solid black;
+hr{
+    width: 100%;
 }
 
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255,255,0.6)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    /* background-color: white; */
+}
+
+.navbar-light .navbar-toggler{
+border-color: blue !important;
+padding: 10px;
+background-color: red;
+}
+
+button:focus{
+    outline: red;
+}
+
+/* HR after Navigation Bar */
+
+hr{
+    border: 0.5px solid black;
+}
 
 /* Footer */
 
@@ -59,23 +67,42 @@ footer p{
 #email{
     color:rgb(166, 176, 255);
 }
-/* For Large Devices Only */
-@media (min-width:1200px){
-    #nav-list li h2:hover ,li h2:active{
-        background-color: rgb(255, 219, 181);
-        box-shadow: 10px 10px 5px black;
-    }
-   
+.navbar-toggler{
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    clear: both;
 }
 
-/* For Medium Devices Only */
-@media (min-width:992px) and (max-width:1199px){
-    #nav-list li:hover ,li:active{
-        background-color: rgb(255, 219, 181);
-        box-shadow: 10px 10px 5px black;
-    }
+
+/* For Extra Large Devices Only */
+@media (min-width:1200px){
     #logo-img{
         width: 250px;
+        height: auto;
+    }
+   #nav-list li div:hover{
+       border: 2px solid white;
+       border-radius: 2px;
+   }
+}
+
+/* For Large Devices Only */
+@media (min-width:992px) and (max-width:1199px){
+    #nav-list li a{
+        color: white;
+        font-weight: 500;
+        font-style: italic;
+        width: 100%;
+        font-size: 1.4em;
+    }
+    #nav-list li div:hover{
+        border: 2px solid white;
+        border-radius: 2px;
+    }
+    
+    #logo-img{
+        width: 200px;
         height: auto;
     }
     #nav-list{
@@ -85,23 +112,41 @@ footer p{
         padding-left: 7%;
       }
 }
-/* For Small Devices Only */
+/* For Medium Devices Only */
 @media (min-width:768px) and (max-width:991px){
-    #nav-list li:hover ,li:active{
+    
+    #nav-list{
+        color: black;
+        font-weight: 500;
+        font-style: italic;
         background-color: rgb(255, 219, 181);
-        box-shadow: 10px 10px 5px black;
+        margin:0;
+    }
+    button.navbar-toggler{
+      top:25px;
+    }  
+    #nav-list li a{
+        width: 100%;
+    }
+    #nav-list li:active{
+        background-color: white;
+        text-decoration: none;
     }
     #logo-img{
-        width: 220px;
+        width: 200px;
         height: auto;
     }
     #nav-list li{
-        padding:0;
+        padding:10px;
+    }
+    hr{
+        margin: 0;
+        opacity: 0.8;
     }
 }
 
-/* For Extra Small Devices Only */
-@media (max-width:767px){
+/* For  Small Devices Only */
+@media (min-width:576px) and (max-width:767px){
     #logo-img{
         width: 200px;
         height: auto;
@@ -109,16 +154,12 @@ footer p{
     }
     #nav-list li:active{
         background-color: white;
+        text-decoration: none;
     }
     #nav-list{
         width: 100%;
         background-color: rgb(255, 219, 181);
         margin:0;
-    }
-    #nav-list li h2{
-        margin:0;
-        font-size:1.2em;
-        padding: 20px 0px;
     }
     hr{
         width: 100%;
@@ -127,8 +168,28 @@ footer p{
     .navbar-toggle{
         margin-top:60px;
     }
-    .navbar-toggle span{
-
-    }
    
+}
+/* For  Extra Small Devices Only */
+@media (max-width:575px){
+    #logo-img{
+        width: 200px;
+        height: auto;
+        margin:10px;
+    }
+    #nav-list li{
+        padding:10px;
+    }
+    #nav-list li:active{
+        background-color: white;
+        text-decoration: none;
+    }
+    hr{
+        margin: 0;
+    }
+    #nav-list{
+        width: 100%;
+        background-color: rgb(255, 219, 181);
+        margin:0;
+    }
 }

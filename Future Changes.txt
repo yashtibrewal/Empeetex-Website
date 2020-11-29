@@ -1,0 +1,4 @@
+Color:
+1. Navbar Button
+2. Navbar List
+3. Background Color Of All pages

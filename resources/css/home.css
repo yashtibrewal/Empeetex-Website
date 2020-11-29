@@ -3,97 +3,122 @@ body{
 }
 
 
-.home_logo{
-  position: absolute;
-  top: 30%;
-  left: 28%;
+.bg-color-255-224-224{
+  background-color: rgb(255, 224, 224);
 }
 
-.home_logo center img{
-  width: 55%;
-  margin-top: 5%;
-  margin-left: -10%;
-}
-
-.white{
-  color: white;
-}
-
-.one{
-  position: absolute;
-  top: 7.5%;
-
-}
-
-.two{
-  position: absolute;
-  top: 7.5%;
-  left: 65%;
-}
-
-.three{
-  position: absolute;
-  top: 55%;
-  left: 5%;
-}
-
-.four{
-  position: absolute;
-  top: 55%;
-  left: 60%;
-}
-
-.pad_left{
-  margin-left: 11%;
-}
-
-.pad_top{
-  margin-top: 11%;
-}
-
-.pad_left_small{
-  margin-left: 3%;
-}
-
-.box{
-  float: left;
-}
-
-.box img{
-
+.card img{
+  width: 100%;
   border: 5px solid orange;
 }
-
-
-a img:hover{
+.card img:hover{
   box-shadow: 0 0 5px 10px #1C1C1C;
 }
 
-h1{
-  color: #1C1C1C;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  font-style: italic;
-  margin: 0%;
+.card{
+  position: relative;
 }
 
+#card1,#card2{
+  z-index: 2;
+  margin-top: 10%;
+}
 
-.contact_us{
+.card h3{
   position: absolute;
-  top: 70%;
-  left: 45%;
-  height: 7%;
-  width: 10%;
+  left: 40%;
+  bottom: 20px;
+  color: black;
+  opacity: 0.9;
+  text-transform: capitalize;
+  font-weight: 650;
+}
+#card3 h3,#card4 h3{
+  color: white;
+}
+#card1 h3,#card2 h3{
+  left: 35%;
+}
+
+div h2{
   background-color: rgb(255, 191, 135);
-  border: 5px solid rgb(220, 0, 54);
+  border: 5px solid red;
+  font-style: italic;
 }
-
-.contact_us p {
-  margin:0;
-  margin-top: 5%;
-  font-size: 1.75rem;
-}
-
-.contact_us:hover{
+div h2:hover{
   box-shadow: 0 0 5px 10px #1C1C1C;
+}
+#logo{
+  width: 290px;
+}
+/* Large Devices Only */
+@media (min-width:992px) and (max-width:1199px){
+  #logo{
+    width: 190px;
+  }
+  #card1 h3{
+    left: 25%;
+  }
+}
+
+/* Medium Devices Only */
+@media (min-width:768px) and (max-width:991px){
+  #logo1{
+    width: 250px;
+  }
+  #card3,#card4{
+    margin-top: 5%;
+  }
+  #card1 h3{
+    left: 20%;
+  }
+}
+
+/* For Small Devices Only */
+@media (min-width:576px) and (max-width:767px){
+  #logo1{
+    width: 220px;
+  }
+  .card{
+    margin-bottom: 5% !important;
+  }
+  .card h3{
+    font-size: 1.5em;
+  }
+  #card1{
+    margin-top: 5% !important;
+  }
+  #card2{
+    margin-top: 0 !important;
+  }
+}
+@media (max-width:575px){
+  #logo1{
+    width: 190px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .card{
+    margin-bottom: 5% !important;
+  }
+  #card1{
+    margin-top: 5% !important;
+  }
+  #card2{
+    margin-top: 0 !important;
+  }
+  h2{
+    font-size: 1.6em;
+  }
+  .card h3{
+    left: 30%;
+    font-size: 1em;
+  }
+  #card2 h3{
+    left: 25%;
+  }
+  #card1 h3{
+    left: 25%;
+  }
+
 }

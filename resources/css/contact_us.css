@@ -1,24 +1,143 @@
-.box{
-  width: 50%;
-  margin-left: 2%;
-  margin-top: 1%;
-  padding: 1%;
+*{
+  box-sizing: border-box;
+}
+html{
+  position: relative;
+}
+#contact{
   background-color: rgb(255, 226, 153);
-  float:left;
-  box-shadow: 10px 10px 10px #1C1C1C;
-  font-family: 'Roboto', sans-serif;
+}
+#image{
+  width:90%;
+}
+
+#contact{
+  display: flex;
+  flex-direction: column;
+}
+#contact h2{
+  font-size: 2em;
   font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+  
+}
+#contact > p span{
+  color: blue;
+}
+
+#contact p{
+  margin: 10px;
+  padding: 5px;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight:600;
 }
 
 
-
-.image{
-  float: left;
-  margin-top: 1%;
-  margin-left: 1%;
-  box-shadow: 10px 10px 10px #1C1C1C;
+#main_content{
+  min-height: 100%;
 }
 
-.text{
-  padding-top: 1%;
+@media (min-width:1200px){
+ 
+}
+
+@media (min-width:992px) and (max-width:1199px){
+
+  #image{
+    width: 100%;
+    height: auto;
+  }
+  #contact h2{
+    font-size: 1.5em;
+    font-weight: 600;
+    
+  }
+  #contact p{
+    margin: 10px;
+    padding: 5px;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight:600;
+  }
+  #contact{
+    height: 287px;
+  }
+  #contact,#box1{
+    margin-top:10%;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px){
+  #contact{
+    height: 250px;
+  }
+  .inner_box{
+    margin:auto;
+  }
+  footer{
+    position: absolute;
+    top:151%;
+    width: 100%;
+    height: 80px; 
+  }
+  #contact{
+    margin-top:12%;
+  }
+}
+
+@media (min-width:576px) and (max-width:767px){
+  #contact h2{
+    font-size: 1.6em;
+    font-weight: 600;
+    
+  }
+  #contact p{
+    margin: 10px;
+    padding: 5px;
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight:600;
+  }
+  #contact{
+    height: auto;
+  }
+  #contact{
+    margin-top:15%;
+  }
+  footer{
+    position: absolute;
+    top:122%;
+    width: 100%;
+    height: 80px; 
+  }
+ 
+}
+@media (max-width:575px){
+  #contact h2{
+    font-size: 1em;
+    font-weight: 600;
+    
+  }
+  #contact p{
+    font-size: 1em;
+    font-style: italic;
+    font-weight:600;
+  }
+  #contact{
+    height: auto;
+  }
+  #contact{
+    margin:25% auto;
+  }
+  footer{
+    position: absolute;
+    top:116%;
+    width: 100%;
+    height: 80px; 
+  }
+  footer p{
+    padding-bottom: 0px;
+  }
 }
