@@ -7,10 +7,10 @@ body{
     /* background-color: rgb(255, 226, 207); */
     background-color: rgb(45, 42, 42);
 }
-#logo-img{
-    width: 200px;
+/* #logo-img{
+    width: 200px ;
     height: auto;
-}
+} */
 #nav-list li{
     padding: 8px;
 }
@@ -78,7 +78,7 @@ footer p{
 /* For Extra Large Devices Only */
 @media (min-width:1200px){
     #logo-img{
-        width: 250px;
+        width: 200px;
         height: auto;
     }
    #nav-list li div:hover{

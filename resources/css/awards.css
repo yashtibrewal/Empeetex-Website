@@ -25,6 +25,11 @@ h3{
     width: 100%;
     height: auto;
 }
+
+.block>h3{
+    padding-top: 10px;
+    font-weight: 700;
+}
 /* Individually Block Styles */
 
 
