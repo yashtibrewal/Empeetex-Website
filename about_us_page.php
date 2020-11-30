@@ -2,60 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" href="Bootstrap4/css/bootstrap.min.css">
+    <?php
+      include('./partials/header.php')
+    ?>
     <link rel="stylesheet" href="resources/css/about_us.css">
-    <link rel="stylesheet" href="resources/css/main.css">
 </head>
 
 <body>
     <!-- Start of Navbar -->
-    <nav id="navigation-bar" class="navbar navbar-light navbar-expand-lg">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-links"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a href="index.html" class="pull-left">
-                <div class="pull-left"><img id="logo-img" class="img-responsive" src="logo.webp" alt="">
-                </div>
-            </a>
-            <div class="collapse navbar-collapse" id="navigation-links">
-                <ul class="mr-auto"></ul>
-                <ul id="nav-list" class="navbar-nav text-center">
-                    <li><a href="index.html">
-                            <div>
-                                Home
-                            </div>
-                        </a> </li>
-                    <hr class="d-block d-xl-none d-lg-none">
-                    <li><a href="exim_page.html">
-                            <div> Market&nbsp;Presence</div>
-                        </a> </li>
-                    <hr class="d-block d-xl-none d-lg-none">
-                    <li><a href="products_page.html">
-                            <div> Products</div>
-                        </a></li>
-                    <hr class="d-block d-xl-none d-lg-none">
-                    <li><a href="awards.html">
-                            <div> Achievements</div>
-                        </a></li>
-                    <hr class="d-block d-xl-none d-lg-none">
-                    <li><a href="about_us_page.html">
-                            <div> About&nbsp;Us</div>
-                        </a></li>
-                    <hr class="d-block d-xl-none d-lg-none">
-                    <li><a href="contact_us.html">
-                            <div>Contact&nbsp;Us</div>
-                        </a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <?php
+      include('./partials/navigation.php')
+    ?>
     <!-- End Of Navbar -->
-    <hr id="black" class="d-none d-sm-none d-md-none d-xl-block d-lg-block">
+    
     <div class="container">
         <div class="row">
             <div id="block1" class="block text-center col-xl-12">

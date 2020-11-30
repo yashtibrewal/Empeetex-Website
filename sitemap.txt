@@ -1,5 +1,5 @@
-http://www.empeetex.com/contact_us.html
-http://www.empeetex.com/about_us_page.html
-http://www.empeetex.com/awards.html
-http://www.empeetex.com/products_page.html
-http://www.empeetex.com/exim_page.html
+http://www.empeetex.com/contact_us.php
+http://www.empeetex.com/about_us_page.php
+http://www.empeetex.com/awards.php
+http://www.empeetex.com/products_page.php
+http://www.empeetex.com/exim_page.php
