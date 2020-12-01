@@ -19,7 +19,7 @@
     <div class="container">
         <div class="row">
             <div id="block1" class="block text-center col-xl-12">
-                <h3>
+                <h3 class="black">
                     objective
                 </h3>
                 <p>
