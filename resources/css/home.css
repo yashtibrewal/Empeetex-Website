@@ -55,6 +55,12 @@ div h2:hover{
 a:hover{
   text-decoration: none;
 }
+#contact_xl{
+  text-transform: capitalize;
+}
+#contact_xl:hover{
+  color: #007bff;
+}
 @media (min-width:1200px){
   
 footer{

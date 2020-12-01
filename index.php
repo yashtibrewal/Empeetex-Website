@@ -20,17 +20,13 @@
 
     <!-- Only Visible at MD,SM,XS Breakpoints -->
     <!-- Start of First Row -->
-    <div class="row">
-      <div class="col-md-12  col-sm-12 d-xl-none d-lg-none d-md-block">
-        <div class="row">
-          <div class="col-md-6 offset-md-4 col-sm-6 offset-sm-4 col-6 offset-3">
-            <a href="index.php">
-              <img id="logo1" src="logo.webp" width="300px" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
+
+    <div class="d-xl-none d-lg-none d-md-flex d-sm-flex d-flex  justify-content-center">
+      <a href="index.php">
+        <img id="logo1" src="logo.webp"  width="300px" alt="">
+      </a>
     </div>
+
     <!-- End Of First Row -->
 
     <!-- Start for Second Row -->
@@ -65,21 +61,13 @@
     <!-- Empeetex Logo  -->
 
     <!-- Start of Third Row -->
-    <div class="row">
-      <div class="col-xl-12 col-lg-12 d-xl-block d-lg-block d-md-none d-sm-none d-none">
-        <div class="row">
-          <div class="col-xl-6 offset-xl-4 ccol-lg-6 offset-lg-4">
-            <div class="row">
-              <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1" style="z-index: 5;margin-top: -2%;">
-                <a href="index.php">
-                  <img id="logo" src="logo.webp" alt="">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> <!-- End Of Third Row -->
+
+    <div class="d-xl-flex d-lg-flex d-md-none d-sm-none d-none  justify-content-center">
+      <a href="index.php">
+        <img id="logo" style="align-items:center;" src="logo.webp" alt="">
+      </a>
+    </div> 
+    <!-- End Of Third Row -->
 
     <!-- Start of Fourth Row -->
     <div class="row">
@@ -102,7 +90,7 @@
         <div class="row">
           <div class="col-xl-12 col-lg-12">
             <a href="contact_us.php">
-              <h2 class="text-center mt-5">contact us</h2>
+              <h2  id="contact_xl"class="text-center mt-5">contact us</h2>
             </a>
           </div>
         </div>
