@@ -29,18 +29,18 @@ hr{
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255,255,0.6)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     /* background-color: white; */
 }
 
 .navbar-light .navbar-toggler{
 border-color: blue !important;
 padding: 10px;
-background-color: red;
+background-color: white;
 }
 
 button:focus{
-    outline: red;
+    outline: white;
 }
 
 /* HR after Navigation Bar */
@@ -119,7 +119,7 @@ footer p{
         color: black;
         font-weight: 500;
         font-style: italic;
-        background-color: rgb(255, 219, 181);
+        background-color: rgb(146, 104, 59);
         margin:0;
     }
     button.navbar-toggler{
@@ -158,7 +158,7 @@ footer p{
     }
     #nav-list{
         width: 100%;
-        background-color: rgb(255, 219, 181);
+        background-color: rgb(174, 130, 82);
         margin:0;
     }
     hr{
@@ -192,4 +192,8 @@ footer p{
         background-color: rgb(255, 219, 181);
         margin:0;
     }
+}
+
+.black{
+  color: black;
 }
