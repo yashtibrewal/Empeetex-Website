@@ -37,7 +37,7 @@
         <div class="row">
           <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-10 offset-1">
             <a href="exim_page.php">
-              <img src="resources/images/home/home exposure map.jpg" alt="">
+              <img src="resources/images/home/home exposure map.webp" alt="">
               <h3> market presence</h3>
             </a>
           </div>
@@ -50,7 +50,7 @@
         <div class="row">
           <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-10 offset-1">
             <a href="awards.php">
-              <img src="resources/images/home/home awards.jpg" alt="">
+              <img src="resources/images/home/home awards.webp" alt="">
               <h3> achievements</h3>
             </a>
           </div>
@@ -64,7 +64,7 @@
 
     <div class="d-xl-flex d-lg-flex d-md-none d-sm-none d-none  justify-content-center">
       <a href="index.php">
-        <img id="logo" style="align-items:center;" src="logo.webp" alt="">
+        <img id="logo"src="logo.webp" alt="">
       </a>
     </div> 
     <!-- End Of Third Row -->
@@ -78,7 +78,7 @@
           <div id="card3" class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-10 offset-1">
             <!-- class="col-xl-8 offset-xl-1 mt-n3" -->
             <a href="about_us_page.php">
-              <img src="resources/images/home/home about us.jpg" alt="">
+              <img src="resources/images/home/home about us.webp" alt="">
               <h3> about us </h3>
             </a>
           </div>
@@ -102,7 +102,7 @@
           <div id="card4" class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-10 offset-1">
             <!-- class="col-xl-8 offset-xl-2 mt-n3" -->
             <a href="products_page.php">
-              <img src="resources/images/home/home products.jpg" alt="">
+              <img src="resources/images/home/home Products.webp" alt="">
               <h3>products </h3>
             </a>
           </div>
@@ -127,14 +127,9 @@
   </div> <!-- End Of Container-Fliud-->
 
   <!-- Footer Of The Page -->
-  <footer class="mt-2">
-    <div class="text-center">
-      <p>
-        Contact Us at <span id="email"> pankaj@empeetex.com</span>
-        <span class="hidden">|</span> &nbsp;Phone:&nbsp;+91&nbsp;9820618154
-      </p>
-    </div>
-  </footer>
+  <?php
+      include('./partials/footer.php');
+  ?>
 
   <!-- JS and Jquery Scripts for The Page At End so WebPage Loads Faster -->
   <script src="Bootstrap4/js/jquery-3.5.1.min.js"></script>

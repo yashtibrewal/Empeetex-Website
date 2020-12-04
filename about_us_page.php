@@ -4,7 +4,7 @@
 <head>
     <title>About Us</title>
     <?php
-      include('./partials/header.php')
+      include('./partials/header.php');
     ?>
     <link rel="stylesheet" href="resources/css/about_us.css">
 </head>
@@ -29,14 +29,15 @@
                 </p>
             </div>
             <div id="block2" class="block text-left col-lg-12">
+                <h3 class="text-center">
+                            management
+                </h3>
                 <div class="row">
                     <div id="block2_p" class="col-xl-9 col-lg-9 col-sm-12">
-                        <h3 class="text-center">
-                            management
-                        </h3>
-                        <div
+                        
+                        <div    
                             class="col-sm-12 col-xs-12 d-xl-none d-lg-none d-md-block d-sm-block d-block visible-xs text-center">
-                            <img id="director_img1" src="resources/images/Director.jpg" alt="Image not found">
+                            <img id="director_img1" src="resources/images/Director.webp" alt="Image not found">
                             <p>Mr.&nbsp;Pankaj&nbsp;Tibrewal Director</p>
                         </div>
                         <p>
@@ -82,7 +83,7 @@
                         </p>
                     </div>
                     <div id="block2_i" class="col-xl-3 col-lg-3 d-xl-block d-lg-block d-md-none d-sm-none d-none">
-                        <img id="director_img2" src="resources/images/Director.jpg" alt="Image not found">
+                        <img id="director_img2" src="resources/images/Director.webp" alt="Image not found">
                         <p id="director_name">Mr.&nbsp;Pankaj&nbsp;Tibrewal Director</p>
                     </div>
                 </div>
@@ -115,14 +116,11 @@
             </div>
         </div> <!-- End Of Row Div-->
     </div><!-- End Of Container Div-->
-    <footer>
-        <div class="text-center">
-            <p>
-                Contact Us at <span id="email"> pankaj@empeetex.com</span>
-                <span class="hidden-xs">|</span> &nbsp;Phone:&nbsp;+91&nbsp;9820618154
-            </p>
-        </div>
-    </footer>
+    
+    <?php
+      include('./partials/footer.php');
+    ?>
+
     <script src="Bootstrap4/js/jquery-3.5.1.min.js"></script>
     <script src="Bootstrap4/js/bootstrap.min.js"></script>
     <script src="Bootstrap4/js/bootstrap.js"></script>

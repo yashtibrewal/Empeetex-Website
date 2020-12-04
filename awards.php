@@ -104,14 +104,9 @@
   <!-- End of Main Content -->
 
   <!-- Footer Of The Page -->
-  <footer>
-    <div class="text-center">
-      <p>
-        Contact Us at <span id="email"> pankaj@empeetex.com</span>
-        <span class="hidden">|</span> &nbsp;Phone:&nbsp;+91&nbsp;9820618154
-      </p>
-    </div>
-  </footer>
+  <?php
+      include('./partials/footer.php');
+  ?>
   <!-- JS and Jquery Scripts for The Page At End so WebPage Loads Faster -->
   <script src="Bootstrap4/js/jquery-3.5.1.min.js"></script>
   <script src="Bootstrap4/js/bootstrap.min.js"></script>

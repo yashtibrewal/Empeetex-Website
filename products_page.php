@@ -29,7 +29,7 @@
           <div id="card1" class="card col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-10 offset-1">
             <h2 class="text-center">SPUN YARNS</h2>
             <div class="text-center">
-              <img class="card-image" src="resources/images/products/spun yarn syntehtic.jpg" />
+              <img class="card-image" src="resources/images/products/spun yarn synthetic.webp" />
             </div>
             <h3 class="text-center">COTTON : Natural (Raw White), Melange, Solid Dyed</h3>
             <table class="text-center">
@@ -81,7 +81,7 @@
           <div id="card2" class="card col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-10 offset-1">
             <h2 class="text-center">SPUN YARNS</h2>
             <div class="text-center">
-              <img class="card-image" src="resources/images/products/synthetic dyed yarn 2.jpg" />
+              <img class="card-image" src="resources/images/products/synthetic yarn dyed 2.webp" />
             </div>
             <h3 class="text-center">SYNTHETIC : Natural (Raw White), Melange, Solid Dyed</h3>
             <table class="text-center">
@@ -134,7 +134,7 @@
           <div id="card3" class="card col-xl-11 col-lg-11 col-md-10 offset-md-1 col-10 offset-1">
             <h2 class="text-center">FILAMENT YARNS</h2>
             <div class="text-center">
-              <img class="card-image" src="resources/images/products/filament yarn.jpg" />
+              <img class="card-image" src="resources/images/products/filament yarn.webp" />
             </div>
             <h3 class="text-center">SYNTHETIC : Natural (Raw White), Melange, Solid Dyed</h3>
             <table>
@@ -214,15 +214,9 @@
     </div> <!-- End Of Row -->
   </div> <!-- End Of Container -->
 
-  <footer>
-    <div class="text-center">
-      <p>
-        Contact Us at <span id="email"> pankaj@empeetex.com</span>
-        <span class="hidden">|</span> &nbsp;Phone:&nbsp;+91&nbsp;9820618154
-      </p>
-    </div>
-  </footer>
-
+  <?php
+      include('./partials/footer.php');
+  ?>
   <script src="Bootstrap4/js/jquery-3.5.1.min.js"></script>
   <script src="Bootstrap4/js/bootstrap.min.js"></script>
   <script src="Bootstrap4/js/bootstrap.js"></script>

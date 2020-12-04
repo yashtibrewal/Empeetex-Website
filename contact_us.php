@@ -41,24 +41,12 @@
       </div>
     </div>
   </div>
-  <footer class="fixed-bottom d-xl-block d-lg-block d-md-none d-sm-none d-none">
-    <div class="text-center">
-      <p>
-        Contact Us at <span id="email"> pankaj@empeetex.com</span>
-        <span class="d-none">|</span> &nbsp;Phone:&nbsp;+91&nbsp;9820618154
-      </p>
-    </div>
-  </footer>
 
-  <footer id="small" class="d-xl-none d-lg-none d-md-block d-sm-block d-block">
-    <div class="text-center">
-      <p>
-        Contact Us at <span id="email"> pankaj@empeetex.com</span>
-        <span class="d-none">|</span> &nbsp;Phone:&nbsp;+91&nbsp;9820618154
-      </p>
-    </div>
-  </footer>
 
+  <?php
+      include('./partials/footer.php');
+  ?>
+  
 </body>
 <script src="Bootstrap4/js/jquery-3.5.1.min.js"></script>
 <script src="Bootstrap4/js/bootstrap.min.js"></script>

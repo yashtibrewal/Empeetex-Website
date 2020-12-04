@@ -49,13 +49,14 @@ div h2:hover{
   box-shadow: 0 0 5px 10px #1C1C1C;
 }
 #logo{
-  width: 290px;
+  width: 300px;
 }
 
 a:hover{
   text-decoration: none;
 }
 #contact_xl{
+  padding:3px;
   text-transform: capitalize;
 }
 #contact_xl:hover{
@@ -72,9 +73,6 @@ footer{
 
 /* Large Devices Only */
 @media (min-width:992px) and (max-width:1199px){
-  #logo{
-    width: 190px;
-  }
   #card1 h3{
     left: 25%;
   }
@@ -88,6 +86,7 @@ footer{
 /* Medium Devices Only */
 @media (min-width:768px) and (max-width:991px){
   #logo1{
+    margin-top: 10px;
     width: 250px;
   }
   #card3,#card4{
@@ -109,6 +108,7 @@ footer{
 /* For Small Devices Only */
 @media (min-width:576px) and (max-width:767px){
   #logo1{
+    margin-top: 10px;
     width: 220px;
   }
   .card{
