@@ -77,9 +77,6 @@ footer{
 
 /* Large Devices Only */
 @media (min-width:992px) and (max-width:1199px){
-  #card1 h3{
-    left: 25%;
-  }
   footer{
   position: absolute;
   width: 100%;
@@ -95,9 +92,6 @@ footer{
   }
   #card3,#card4{
     margin-top: 5%;
-  }
-  #card1 h3{
-    left: 20%;
   }
   footer{
     position: absolute;
@@ -120,12 +114,6 @@ footer{
   }
   .card h3{
     font-size: 1.2em;
-  }
-  #card1 h3{
-    left: 20%;
-  }
-  #card2 h3{
-    left: 25%;
   }
   footer{
     position: absolute;
@@ -159,14 +147,6 @@ footer{
     font-size: 1.6em;
   }
   .card h3{
-    left: 30%;
     font-size: 1em;
   }
-  #card2 h3{
-    left: 25%;
-  }
-  #card1 h3{
-    left: 25%;
-  }
-
 }
