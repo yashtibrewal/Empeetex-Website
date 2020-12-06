@@ -1,6 +1,10 @@
 h3{
     font-size: 1.2em;
 }
+body{
+    background-color: rgb(255, 236, 194);
+    font-style: italic;
+}
 /* Main Styles */
 
 #main-content{

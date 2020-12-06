@@ -38,7 +38,9 @@
           <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-10 offset-1">
             <a href="exim_page.php">
               <img src="resources/images/home/home exposure map.webp" alt="">
-              <h3> market presence</h3>
+                <div class="d-xl-flex d-lg-flex d-md-flex d-sm-flex d-flex justify-content-center">
+                  <h3> market presence</h3>
+                </div>
             </a>
           </div>
         </div>
@@ -51,7 +53,9 @@
           <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-sm-10 offset-sm-1 col-10 offset-1">
             <a href="awards.php">
               <img src="resources/images/home/home awards.webp" alt="">
-              <h3> achievements</h3>
+                <div class="d-xl-flex d-lg-flex d-md-flex d-sm-flex d-flex justify-content-center">
+                  <h3> achievements</h3>
+                </div>
             </a>
           </div>
         </div>
@@ -79,7 +83,9 @@
             <!-- class="col-xl-8 offset-xl-1 mt-n3" -->
             <a href="about_us_page.php">
               <img src="resources/images/home/home about us.webp" alt="">
+              <div class="d-xl-flex d-lg-flex d-md-flex d-sm-flex d-flex justify-content-center">
               <h3> about us </h3>
+              </div>
             </a>
           </div>
         </div>
@@ -103,7 +109,9 @@
             <!-- class="col-xl-8 offset-xl-2 mt-n3" -->
             <a href="products_page.php">
               <img src="resources/images/home/home Products.webp" alt="">
+              <div class="d-xl-flex d-lg-flex d-md-flex d-sm-flex d-flex justify-content-center">
               <h3>products </h3>
+              </div>
             </a>
           </div>
         </div>

@@ -15,7 +15,7 @@
   <!-- Start of Navbar -->
   <?php
   include('./partials/navigation.php')
-  ?>x
+  ?>
   <!-- End Of Navbar -->
 
   <!-- Start Of Main Content -->

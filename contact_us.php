@@ -27,10 +27,10 @@
       <div id="contact" class="box col-xl-7 col-lg-6 col-md-12 col-sm-12 col-11">
         <div class="row">
           <div class="inner_box col-10 offset-1 col-xl-12 offset-xl-0 col-lg-12 offset-lg-0 col-md-12 offset-md-0">
-            <h2>Leave a Message</h2>
+            <h2>Leave us a Message</h2>
             <p class="text-left"> Phone,&nbsp;Whatsapp,&nbsp;Viber, Wechat:+919820618154
               Landline:&nbsp;+912228852247
-              <span>Email:&nbsp;pankaj@empeetex.com</span>
+              Email:<span id="msg_email">&nbsp;pankaj@empeetex.com</span>
             </p>
             <p class="text-left"> Postal :
               202, Building. No. 1, Kanakia Sanskruti, <br> Thakur Complex, Kandivali (East), Mumbai -

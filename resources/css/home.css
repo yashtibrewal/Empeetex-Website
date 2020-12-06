@@ -1,3 +1,8 @@
+*{
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+}
+
 body{
   background-color: rgb(255, 224, 224);
 }
@@ -26,8 +31,9 @@ body{
 
 .card h3{
   position: absolute;
-  left: 40%;
-  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  bottom: 0px;
   color: black;
   opacity: 0.9;
   text-transform: capitalize;
@@ -35,9 +41,6 @@ body{
 }
 #card3 h3,#card4 h3{
   color: white;
-}
-#card1 h3,#card2 h3{
-  left: 35%;
 }
 
 div h2{
@@ -67,7 +70,8 @@ a:hover{
 footer{
   position: absolute;
   width: 100%;
-  top:98%;
+  top:110%;
+  /* bottom: 0px; */
 }
 }
 

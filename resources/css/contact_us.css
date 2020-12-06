@@ -1,6 +1,9 @@
 *{
   box-sizing: border-box;
 }
+body{
+  background-color: rgb(255, 236, 194);
+}
 html{
   position: relative;
 }
@@ -9,11 +12,17 @@ html{
 }
 #image{
   width:90%;
+  box-shadow: 10px 10px 10px #1C1C1C;
+}
+
+#msg_email{
+  color: blue;
 }
 
 #contact{
   display: flex;
   flex-direction: column;
+  box-shadow: 10px 10px 10px #1C1C1C;
 }
 #contact h2{
   font-size: 2em;

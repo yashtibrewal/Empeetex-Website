@@ -2,7 +2,9 @@
 *{
   box-sizing: border-box;
 }
-
+body{
+  background-color: rgb(255, 236, 194);
+}
 
 /* Main Content Styles */
 
