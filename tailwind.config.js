@@ -9,21 +9,15 @@ module.exports = {
     extend: {
       colors: {
         // Main background color
-        'bg-light-cream': 'rgb(255, 236, 194)', // Light cream
+        'bg-light-cream': '#ffecd2', // Light cream
 
         // Card background colors
-        'card-bg-255-236-194': 'rgb(255, 236, 194)', // Light cream
         'card-bg-f18805': '#f18805', // Orange
 
-        // Card text colors
-        'card-text-black': 'black', // Black
-        'card-text-white': 'white', // White
-
         // Highlight colors
-        'highlight-rgb-255-0-0': 'rgba(255,0,0,0.6)', // Semi-transparent red
-        'highlight-orange': 'orange', // Orange
+        'highlight-rgb-255-0-0': '#ff0000', // Semi-transparent red
         'highlight-darkorange': 'darkorange', // Dark orange
-        'highlight-rgb-255-166-71': 'rgb(255, 166, 71)', // Light orange
+        'highlight-rgb-255-166-71': '#ffaa47', // Light orange
 
         // Footer colors
         'footer-bg-black': 'black', // Black
@@ -31,27 +25,24 @@ module.exports = {
 
         // Text colors
         'text-blue': 'blue', // Blue
-        'text-rgb-166-176-255': 'rgb(166, 176, 255)', // Light blue
+        'text-rgb-166-176-255': '#a6b0ff', // Light blue
 
         // Block background colors
-        'block-bg-rgb-255-99-118': 'rgb(255,99,118)', // Light pink
-        'block-bg-rgb-255-165-105': 'rgb(255,165,105)', // Light orange
-        'block-bg-rgb-255-197-110': 'rgb(255, 197, 110)', // Light yellow
+        'block-bg-rgb-255-99-118': '#ff6376', // Light pink
+        'block-bg-rgb-255-165-105': '#ffa569', // Light orange
+        'block-bg-rgb-255-197-110': '#ffc56e', // Light yellow
 
         // Navigation bar colors
-        'nav-bg-rgb-45-42-42': 'rgb(45, 42, 42)', // Dark gray
-        'nav-bg-rgb-174-130-82': 'rgb(174, 130, 82)', // Beige
+        'nav-bg-rgb-45-42-42': '#2d2a2a', // Dark gray
+        'biege': '#ae8252', // Beige
 
         // Contact section colors
-        'contact-bg-rgb-255-226-153': 'rgb(255, 226, 153)', // Light yellow
-        'contact-text-blue': 'blue', // Blue
+        'contact-bg-rgb-255-226-153': '#ffe299', // Light yellow
 
         // Additional colors
-        'bg-rgb-255-224-224': 'rgb(255, 224, 224)', // Light pink
-        'card-border-orange': 'orange', // Orange
-        'shadow-black': '#1C1C1C', // Very dark gray
-        'shadow-color': 'black', // Black
-        'shadow-color-dark': '#1C1C1C' // Very dark gray
+        'bg-rgb-255-224-224': '#ffe0e0', // Light pink
+        'shadow-black': '#1c1c1c', // Very dark gray
+        'shadow-color-dark': '#1c1c1c' // Very dark gray
       },
     },
   },

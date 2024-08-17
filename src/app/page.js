@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Landing from "./component/Landing";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-bg-light-cream">
-      
+    <main className="min-h-screen bg-bg-light-cream">
+      <Landing></Landing>
     </main>
   );
 }
