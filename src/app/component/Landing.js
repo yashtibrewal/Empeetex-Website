@@ -8,20 +8,15 @@ export default function Landing() {
     const svgRef = useRef(null);
 
     return (
-        <div className=''>
-
-            <div className=" bg-bg-light-cream">
-                <div className='flex justify-center'>
-                    <div className='w-2/3'>
-                        <ReactSVG
-                            src='logo.svg'
-                            beforeInjection={(svg) => {
-                                svg.setAttribute('ref', svgRef.current);
-                            }}
-                            renumerateIRIElements={false}
-                        />
-                    </div>
-                </div>
+        <div className='bg-bg-light-cream flex justify-center items-center min-h-screen'>
+            <div className='w-2/3'>
+                <ReactSVG
+                    src='logo.svg'
+                    beforeInjection={(svg) => {
+                        svg.setAttribute('ref', svgRef.current);
+                    }}
+                    renumerateIRIElements={false}
+                />
             </div>
         </div>
     );
