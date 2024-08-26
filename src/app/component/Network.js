@@ -9,7 +9,7 @@ export function Network(){
             
             <Section name={'Our Network'}></Section>
             {/* Image generated from www.mapchart.net */}
-            <img src='/MapChart_Map.png'    ></img>
+            <img className="rounded-lg shadow-lg" src='/MapChart_Map.png'    ></img>
         </div>
     )
 

@@ -15,7 +15,9 @@ export default function RootLayout({ children }) {
       {/* <meta property="og:image" content="/path/to/your/image.jpg" /> */}
       <meta property="og:url" content="https://www.empeetex.com/" />
       <link rel="icon" href="/favicon.ico" />
-      <body >{children}</body>
+      <body >
+        {children}
+      </body>
     </html>
   );
 }
