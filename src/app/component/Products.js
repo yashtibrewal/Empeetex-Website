@@ -8,16 +8,16 @@ export function Products() {
             <div className="space-y-24">
 
                 {/* First Section */}
-                <div className="flex flex-wrap md:space-y-5 lg:space-y-0 items-center justify-center">
+                <div className="flex flex-wrap  items-center justify-center">
                     <figure className="relative w-full lg:w-1/2">
-                        <img className="w-full rounded-t-lg md:rounded-lg" src="/products/spun-yarn-synthetic.webp" alt="image description" />
+                        <img className="w-full rounded-t-lg lg:rounded-lg" src="/products/spun-yarn-synthetic.webp" alt="image description" />
                         <figcaption className="px-1 md:px-4 text-left w-full font-semibold space-y-5">
-                            <p className="p-1 md:p-4 bg-opacity-30 bg-black rounded-lg absolute uppercase text-white top-2 md:top-6 text-md md:text-xl lg:text-3xl">Spun Yarn</p>
-                            <p className="p-2 bg-opacity-30 bg-black rounded-lg absolute text-white tracking-tighter bottom-2 md:bottom-6 text-xs md:text-md lg:text-lg">COTTON : Natural (Raw White), Melange, Solid Dyed</p>
+                            <p className="p-1 md:p-4 bg-opacity-30 bg-black rounded-lg absolute uppercase text-white top-2 md:top-6 text-md md:text-2xl lg:text-3xl">Spun Yarn</p>
+                            <p className="p-2 bg-opacity-30 bg-black rounded-lg absolute text-white tracking-tighter bottom-2 md:bottom-6 text-xs md:text-lg lg:text-xl">COTTON : Natural (Raw White), Melange, Solid Dyed</p>
                         </figcaption>
                     </figure>
-                    <div className="relative overflow-x-auto w-full lg:w-1/2 lg:px-5">
-                        <table className="bg-white bg-opacity-80 rounded-lg w-full text-sm text-left text-gray-500">
+                    <div className="relative overflow-x-auto w-full lg:w-1/2 ">
+                        <table className="bg-white bg-opacity-80  w-full text-sm text-left text-gray-500">
                             <thead className="text-xs text-gray-700 uppercase bg-gray-100">
                                 <tr>
                                     <th scope="col" className="px-2 py-3 sm:px-6">Product name</th>
@@ -27,80 +27,80 @@ export function Products() {
                             </thead>
                             <tbody>
                                 <tr className="border-b">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Cotton
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         100%
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Raw White, Melange, Solid Dyed
                                     </td>
                                 </tr>
                                 <tr className="border-b">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Cotton Spun
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Open End, Ring Spun
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         8s to 20s,
                                         10s to 80s
                                     </td>
                                 </tr>
                                 <tr className="border-b ">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Yarn Type
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Raw White
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Carded. Combed, Compact, BCI, Organic
                                     </td>
                                 </tr>
                                 <tr className="border-b ">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Cotton Blends
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         blends
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Modal, Polyester, Viscose
                                     </td>
                                 </tr>
                                 <tr className="border-b ">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Ply
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Single & Double
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         10s to 40s, in some case upto 80s
                                     </td>
                                 </tr>
                                 <tr className="border-b ">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Cotton
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Single
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Spandex/Lycra Corespun
                                     </td>
                                 </tr>
                                 <tr className="">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Cotton
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Carpets
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Ne 8s to 20s Multifold
                                     </td>
                                 </tr>
@@ -110,16 +110,16 @@ export function Products() {
                 </div>
 
                 {/* Second Section */}
-                <div className="flex flex-wrap md:space-y-5 lg:space-y-0 items-center justify-center">
+                <div className="flex flex-wrap  items-center justify-center">
                     <figure className="relative w-full lg:w-1/2">
-                        <img className="w-full rounded-t-lg md:rounded-lg" src="/products/synthetic-yarn-dyed-2.webp" alt="image description" />
+                        <img className="w-full rounded-t-lg lg:rounded-lg" src="/products/synthetic-yarn-dyed-2.webp" alt="image description" />
                         <figcaption className="px-1 md:px-4 text-left w-full font-semibold space-y-5">
-                            <p className="p-1 md:p-4 bg-opacity-30 bg-black rounded-lg absolute uppercase text-white top-2 md:top-6 text-md md:text-xl lg:text-3xl">Spun Yarn</p>
-                            <p className="p-2 bg-opacity-30 bg-black rounded-lg absolute text-white tracking-tighter bottom-2 md:bottom-6 text-xs md:text-md lg:text-lg">SYNTHETIC : Natural (Raw White), Melange, Solid Dyed</p>
+                            <p className="p-1 md:p-4 bg-opacity-30 bg-black rounded-lg absolute uppercase text-white top-2 md:top-6 text-md md:text-2xl lg:text-3xl">Spun Yarn</p>
+                            <p className="p-2 bg-opacity-30 bg-black rounded-lg absolute text-white tracking-tighter bottom-2 md:bottom-6 text-xs md:text-lg lg:text-xl">SYNTHETIC : Natural (Raw White), Melange, Solid Dyed</p>
                         </figcaption>
                     </figure>
-                    <div className="relative overflow-x-auto w-full lg:w-1/2 lg:px-5">
-                        <table className="bg-white bg-opacity-80 rounded-lg w-full text-sm text-left text-gray-500">
+                    <div className="relative overflow-x-auto w-full lg:w-1/2 ">
+                        <table className="bg-white bg-opacity-80  w-full text-sm text-left text-gray-500">
                             <thead className="text-xs text-gray-700 uppercase bg-gray-100">
                                 <tr>
                                     <th scope="col" className="px-2 py-3 sm:px-6">Product name</th>
@@ -129,79 +129,79 @@ export function Products() {
                             </thead>
                             <tbody>
                                 <tr className="border-b">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Polyester
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         100%
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Raw White, Melange, Solid Dyed
                                     </td>
                                 </tr>
                                 <tr className="border-b">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Viscose
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         100%
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Raw White, Melange, Solid Dyed
                                     </td>
                                 </tr>
                                 <tr className="border-b">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Poly/Vis
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         blends
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Raw White, Melange, Solid Dyed
                                     </td>
                                 </tr>
                                 <tr className="border-b">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Poly/Cotton
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         blends
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Raw White, Melange, Solid Dyed
                                     </td>
                                 </tr>
                                 <tr className="border-b">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Count Range
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Ne
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         10s to 40s, in some case up to 60s
                                     </td>
                                 </tr>
                                 <tr className="border-b">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Ply
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Single & Double
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         10s to 40s, in some case up to 60s
                                     </td>
                                 </tr>
                                 <tr className="">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-wrap md:whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-wrap md:whitespace-nowrap">
                                         Poly, Poly/Cot, Viscose
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Carpets
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Ne 8s to 20s Multifold
                                     </td>
                                 </tr>
@@ -211,16 +211,16 @@ export function Products() {
                 </div>
 
                 {/* Third Section */}
-                <div className="flex flex-wrap md:space-y-5 lg:space-y-0 items-center justify-center">
+                <div className="flex flex-wrap  items-center justify-center">
                     <figure className="relative w-full lg:w-1/2">
-                        <img className="w-full rounded-t-lg md:rounded-lg" src="/products/filament-yarn.webp" alt="image description" />
+                        <img className="w-full rounded-t-lg lg:rounded-lg" src="/products/filament-yarn.webp" alt="image description" />
                         <figcaption className="px-1 md:px-4 text-left w-full font-semibold space-y-5">
-                            <p className="p-1 md:p-4 bg-opacity-30 bg-black rounded-lg absolute uppercase text-white top-2 md:top-6 text-md md:text-xl lg:text-3xl">Filament Yarn</p>
-                            <p className="p-2 bg-opacity-30 bg-black rounded-lg absolute text-white tracking-tighter bottom-2 md:bottom-6 text-xs md:text-md lg:text-lg">SYNTHETIC : Natural (Raw White), Melange, Solid Dyed</p>
+                            <p className="p-1 md:p-4 bg-opacity-30 bg-black rounded-lg absolute uppercase text-white top-2 md:top-6 text-md md:text-2xl lg:text-3xl">Filament Yarn</p>
+                            <p className="p-2 bg-opacity-30 bg-black rounded-lg absolute text-white tracking-tighter bottom-2 md:bottom-6 text-xs md:text-lg lg:text-xl">SYNTHETIC : Natural (Raw White), Melange, Solid Dyed</p>
                         </figcaption>
                     </figure>
-                    <div className="relative overflow-x-auto w-full lg:w-1/2 lg:px-5">
-                        <table className="bg-white bg-opacity-80 rounded-lg w-full text-sm text-left text-gray-500">
+                    <div className="relative overflow-x-auto w-full lg:w-1/2 ">
+                        <table className="bg-white bg-opacity-80  w-full text-sm text-left text-gray-500">
                             <thead className="text-xs text-gray-700 uppercase bg-gray-100">
                                 <tr>
                                     <th scope="col" className="px-2 py-3 sm:px-6">Product name</th>
@@ -230,13 +230,13 @@ export function Products() {
                             </thead>
                             <tbody>
                                 <tr className="border-b">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Polyester
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         100%
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         <ul className="list-disc pl-5">
                                             <li>Semi Dull</li>
                                             <li>Full Dull</li>
@@ -250,13 +250,13 @@ export function Products() {
 
                                 </tr>
                                 <tr className="border-b">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Polyester
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         100%
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         <table className="min-w-full">
                                             <tbody>
                                                 <tr>
@@ -281,13 +281,13 @@ export function Products() {
 
                                 </tr>
                                 <tr className="">
-                                    <th scope="row" className="px-2 py-1 sm:px-6 font-medium text-gray-900 whitespace-nowrap">
+                                    <th scope="row" className="px-2 py-1 sm:px-6 sm:py-3 font-medium text-gray-900 whitespace-nowrap">
                                         Viscose
                                     </th>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         100%
                                     </td>
-                                    <td className="px-2 py-1 sm:px-6">
+                                    <td className="px-2 py-1 sm:px-6 sm:py-3">
                                         Filament Yarns
                                     </td>
                                 </tr>

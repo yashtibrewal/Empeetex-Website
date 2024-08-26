@@ -5,7 +5,7 @@ import { Section } from "./Section";
 
 export function Management() {
     return (
-        <div className="">
+        <div >
             <Section name={'Management'}></Section>
 
             <div className="shadow-lg rounded-lg flex flex-col lg:flex-row justify-center items-center mb-5 bg-white">
@@ -28,7 +28,7 @@ export function Management() {
                 </div>
 
                 <div className="lg:w-2/3 px-4 md:px-10 pb-10 lg:py-12 text-gray-700 text-justify lg:text-lg md:text-base sm:text-sm">
-                    <p className="tracking-tight lg:tracking-normal mb-4">
+                    <p className="text-xs sm:text-sm md:text-md lg:text-lg tracking-tight lg:tracking-normal mb-4">
                         A company where the entire family has a textile background, covering everything from fiber to yarn,
                         fabrics, and garments. Currently managed by Mr. Pankaj Tibrewal under the guidance and direction of
                         his family members—all professionals holding top positions in the textile field. Mr. Tibrewal
@@ -36,7 +36,7 @@ export function Management() {
                         and enhanced his managerial skills with an M.M.S. (Marketing). He also received foundational textile
                         knowledge from his father, Sh. R.A. Tibrewal, who managed raw materials in a K.K Birla group spinning unit.
                     </p>
-                    <p className="tracking-tight lg:tracking-normal ">
+                    <p className="text-xs sm:text-sm md:text-md lg:text-lg tracking-tight lg:tracking-normal ">
                         With a techno-commercial background, Mr. Tibrewal spent about 25 years with renowned textile giants,
                         including BIRLA's Bhiwani Textile Mills (Unit of Grasim Industries Limited - <b>Aditya Birla Group of
                             Companies</b>), Rajasthan Textile Mills (Unit of Sutlej Industries Limited - <b>K.K. Birla Group of

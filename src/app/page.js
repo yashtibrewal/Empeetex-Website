@@ -12,8 +12,8 @@ export default function Home() {
       <div
         className="
           space-y-8 md:space-y-16 lg:space-y-32 
-          bg-gradient-to-b from-orange-200 to-orange-400
-          px-4 pb-2 xl:px-32 xl:pb-16 lg:px-16 lg:pb-8 md:px-8 md:pb-4 ">
+          bg-gradient-to-b from-pink-200  via-amber-100 to-orange-300
+          px-4 md:px-24 lg:px-16 xl:px-48 pb-2 md:pb-4 lg:pb-8xl:pb-16">
         <Landing></Landing>
         <Products></Products>
         <Network></Network>
